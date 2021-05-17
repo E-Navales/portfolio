@@ -1,0 +1,265 @@
+/* Set a background image by replacing the URL below */
+body {
+  background: url('../../../img/backCover.jpg') 
+  no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 768px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+	  .profile-pic {display: none}
+	  .cover-carousel {
+		  display: none;
+	  }
+	  .col-left {
+		  display: none;
+	  }
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 768px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+	  .profile-pic {display: none}
+	  .cover-carousel {
+		  display: none;
+	  }
+	  .col-left {
+		  display: none;
+	  }
+}
+
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 768px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+	  .profile-pic {display: none}
+	  .cover-carousel {
+		  display: none;
+	  }
+	  .col-left {
+		  display: none;
+	  }
+}
+
+/* ----------- iPad 1, 2, Mini and Air ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+	  div.col-md-4.profile-pic img{
+		  height: 16rem;
+		  width: 16rem;	
+		  margin-top: 8rem;
+	  }
+	  .cover-carousel {
+		  display: none;
+	  }
+	  .col-left {
+		  display: none;
+	  }
+	  
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+	  div.col-md-4.profile-pic img{
+		  height: 16rem;
+		  width: 16rem;	
+		  margin-top: 8rem;
+	  }
+	  .cover-carousel {
+		  display: none;
+	  }
+	  .col-left {
+		  display: none;
+	  }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+	  div.col-md-4.profile-pic img{
+		  height: 16rem;
+		  width: 16rem;	
+		  margin-top: 8rem;
+	  }
+	  .cover-carousel {
+		  display: none;
+	  }
+	  .col-left {
+		  display: none;
+	  }
+
+}
+.profile-pic img{
+	border-radius: 50%;
+	margin-top: 2rem;
+	
+}
+
+#myBtn {
+
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+
+  outline: none;
+  
+  color: white;
+  cursor: pointer;
+ 
+}
+
+
+
+
+.navbar {
+  background-color: #f0f0f0;
+}
+.navbar .navbar-brand {
+  color: #818181;
+}
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus {
+  color: #fdc5a1;
+}
+.navbar .navbar-text {
+  color: #818181;
+}
+.navbar .navbar-text a {
+  color: #fdc5a1;
+}
+.navbar .navbar-text a:hover,
+.navbar .navbar-text a:focus {
+  color: #fdc5a1; 
+}
+.navbar .navbar-nav .nav-link {
+  color: #818181;
+  border-radius: .25rem;
+  margin: 0 0.25em;
+}
+.navbar .navbar-nav .nav-link:not(.disabled):hover,
+.navbar .navbar-nav .nav-link:not(.disabled):focus {
+  color: #fdc5a1;
+}
+.navbar .navbar-nav .nav-item.active .nav-link,
+.navbar .navbar-nav .nav-item.active .nav-link:hover,
+.navbar .navbar-nav .nav-item.active .nav-link:focus,
+.navbar .navbar-nav .nav-item.show .nav-link,
+.navbar .navbar-nav .nav-item.show .nav-link:hover,
+.navbar .navbar-nav .nav-item.show .nav-link:focus {
+  color: #fdc5a1;
+  background-color: #a7a7a7;
+}
+.navbar .navbar-toggle {
+  border-color: #a7a7a7;
+}
+.navbar .navbar-toggle:hover,
+.navbar .navbar-toggle:focus {
+  background-color: #a7a7a7;
+}
+.navbar .navbar-toggle .navbar-toggler-icon {
+  color: #818181;
+}
+.navbar .navbar-collapse,
+.navbar .navbar-form {
+  border-color: #818181;
+}
+.navbar .navbar-link {
+  color: #818181;
+}
+.navbar .navbar-link:hover {
+  color: #fdc5a1;
+}
+
+@media (max-width: 575px) {
+  .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #818181;
+  }
+  .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+  .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #fdc5a1;
+  }
+  .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #fdc5a1;
+    background-color: #a7a7a7;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #818181;
+  }
+  .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+  .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #fdc5a1;
+  }
+  .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #fdc5a1;
+    background-color: #a7a7a7;
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #818181;
+  }
+  .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+  .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #fdc5a1;
+  }
+  .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #fdc5a1;
+    background-color: #a7a7a7;
+  }
+}
+
+@media (max-width: 1199px) {
+  .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #818181;
+  }
+  .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+  .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #fdc5a1;
+  }
+  .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #fdc5a1;
+    background-color: #a7a7a7;
+  }
+}
+
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item {
+  color: #818181;
+}
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+  color: #fdc5a1;
+}
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item.active {
+  color: #fdc5a1;
+  background-color: #a7a7a7;
+}
